@@ -4,27 +4,47 @@
 	background-position: center;
 
 }
+.menu {
+	color:white;
+	display: inline;
+}
 
 .title {
 	font-family: 'Josefin Sans', sans-serif;
 	padding-top: 180px;
-	padding-bottom: 250px;
 	color:#ECE9E3;
+}
+.subtitle {
+	font-family: 'Josefin Sans', sans-serif;
+	color:#C7C5C3;
+	
 }
 .icon-title {
-	color:#ECE9E3;
-	z-index: 2;
-	margin-top: 20px;
-	font-size: 45px;
+	color:#BBB9B9;
+	/*position:fixed;
+	top:40px;
+	left:48%;
+	z-index: 2;*/
+	font-size: 40px;
+	padding-bottom: 250px;
+	
 }
+
+.profile {
+	padding-bottom: 30px;
+}
+
 .perfil {
-	margin-top: 30px;
+	padding-top: 30px;
 	width: 40%;
 }
 
-h2 {
-	margin-top: 30px;
+.profile-title {
+	padding-top: 30px;
 	font-family: 'Josefin Sans', sans-serif;
+}
+.margen-profile {
+	padding-bottom: 30px;
 }
 p {
 	font-family: 'Josefin Sans', sans-serif;
@@ -32,4 +52,25 @@ p {
 .icon {
 	font-size: 30px;
 	margin-left: 10px;
+	margin-top: 15px;
+}
+
+.works {
+	padding-bottom: 300px;
+	background-color: #228896;
+}
+h2 {
+	font-family: 'Josefin Sans', sans-serif;
+}
+.iconos {
+	font-size: 30px;
+	color:black;
+	margin:20px;
+}
+#contact {
+	padding-bottom: 300px;
+}
+.enlace {
+	text-decoration: none;
+	padding-top: 15px;
 }

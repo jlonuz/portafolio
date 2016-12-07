@@ -6,33 +6,79 @@
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+	
 	<link rel="stylesheet" href="css/main.css">
+
 </head>
 <body>
 	<section class="container-fluid banner">
 		<div class="row">
 			<div class="col-xs-12 col-ms-12 col-md-12 text-center">
-				<span class="text-center"><a href=""><i class="fa fa-bullseye icon-title" aria-hidden="true"></i></a></span>
-				<h1 class="text-center title">J.Lonuz</h1>
-				
+				<a href="#contact"class="enlace">CONTACT</a>
 			</div>
 		</div>
+		<div class="row">
+			<div class="col-xs-12 col-ms-12 col-md-12 text-center">
+				<h1 class="text-center title">J.Lonuz</h1>
+				<h4 class="subtitle">Front End Web Developer</h4>
+				<span class="text-center"><a href="#profile"><i class="fa fa-bullseye icon-title" aria-hidden="true"></i></a></span>
+			</div>
+		</div>
+		<div class="row">
 		
+		</div>	
 	</section>
 	<section class="container">
-		<div class="row">
+		<div class="row" id="profile">
 			<div class="col-md-6 text-center">
 				<img class="perfil" src="img/jocirculo.png" alt="">
 			</div>
-			<div class="col-md-6 text-center">
-				<h2>About me</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi aperiam quibusdam, quae distinctio impedit enim dolorem, nobis labore expedita nisi, consequuntur esse mollitia earum totam suscipit omnis quisquam illum pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae similique quae laborum deserunt rem? Aliquid sint numquam eos dolorem magni iste vel, sit nesciunt natus ad quibusdam adipisci culpa dolor.</p>
+			<div class="col-md-6 text-center margen-profile">
+				<h2 class="profile-title">Josefina López</h2>
+				<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi aperiam quibusdam, quae distinctio impedit enim dolorem, nobis labore expedita nisi, consequuntur esse mollitia earum totam suscipit omnis quisquam illum pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae similique quae laborum deserunt rem? Aliquid sint numquam eos dolorem magni iste vel, sit nesciunt natus ad quibusdam adipisci culpa dolor.</p>
 				<span><i class="fa fa-music icon" aria-hidden="true"></i></span>
 				<span><i class="fa fa-bicycle icon" aria-hidden="true"></i></span>
 				<span><i class="fa fa-video-camera icon" aria-hidden="true"></i></span>
 			</div>
 		</div>
 	</section>
+	<section class="container-fluid works">
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="text-center">Works</h2>
+			</div>
+		</div>
+		
+	</section>
+	<section id="contact">
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="text-center">Contact</h2>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-ms-12 col-md-12 text-center">
+					<span class="iconos"><i class="fa fa-facebook-square" aria-hidden="true"></i></span>
+					<span class="iconos"><i class="fa fa-twitter-square" aria-hidden="true"></i></span>
+					<span class="iconos"><i class="fa fa-whatsapp" aria-hidden="true"></i></span>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script>
+		$('a[href*="#"]:not([href="#"])').click(function() {
+		  if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+    	var target = $(this.hash);
+    	target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+    	if (target.length) {
+      	$('html, body').animate({scrollTop: target.offset().top
+      	}, 1000);
+   			   	return false;
+    			}
+  			}	
+		});
+	</script>
 	
 </body>
 </html>
