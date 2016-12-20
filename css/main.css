@@ -1,28 +1,45 @@
+* {
+	padding:0;
+	margin:0;
+}
+
 .banner {
 	background-image: url(../img/santiago.jpg);
 	background-size: cover;
 	background-position: center;
 
 }
-
-.lista {
-	margin-top:20px;
-}
 .menu {
 	color:#BBB9B9;
 	display: inline;
-	
+
 }
+
+.menu-fondo {
+	background-color: black;
+	padding-top:15px;
+	width:100%;
+	position:fixed;
+	z-index:100;
+
+}
+
 .menu a {
 	text-decoration: none;
 	color:white;
 	font-family: 'Josefin sans';
+	margin-right: 50px;
+	font-size: 13px;
+
 }
 
 .menu a:hover {
 	color:#228896;
 }
 
+.profile {
+	padding-bottom: 30px;
+}
 
 .enlace:hover {
 	color:#228896;
@@ -41,10 +58,6 @@
 }
 .icon-title {
 	color:#BBB9B9;
-	/*position:fixed;
-	top:40px;
-	left:48%;
-	z-index: 2;*/
 	font-size: 40px;
 	padding-bottom: 250px;
 	
@@ -54,12 +67,8 @@
 	color:#228896;
 }
 
-.profile {
-	padding-bottom: 30px;
-}
-
 .perfil {
-	padding-top: 30px;
+	padding-top: 70px;
 	width: 40%;
 }
 
@@ -68,22 +77,27 @@
 	visibility: hidden;
 }*/
 
-.perfil:hover {
-
-}
-
 .profile-title {
-	padding-top: 30px;
+	padding-top: 50px;
+	padding-bottom: 10px;
 	font-family: 'Josefin Sans', sans-serif;
 }
-
-
-
-.margen-profile {
-	padding-bottom: 30px;
+.hability {
+	font-family: 'Josefin Sans', sans-serif;
+	display:inline-block;
+	padding:15px;
 }
+
+.color-hability {
+	color:#228896;
+}
+.margen-profile {
+	padding-bottom: 20px;
+}
+
 p {
 	font-family: 'Josefin Sans', sans-serif;
+
 }
 .icon {
 	font-size: 30px;
@@ -92,21 +106,65 @@ p {
 }
 
 .works {
-	padding-bottom: 300px;
+	padding-bottom: 50px;
 	background-color: #228896;
 }
 h2 {
 	font-family: 'Josefin Sans', sans-serif;
+	padding-top:30px;
+	padding-bottom: 20px;
 }
+
+
+.img-works {
+	max-width: 100%;
+	margin:5px;
+	margin-bottom: 30px;
+	border-radius: 10px;
+}
+
+.estilo-boton {
+	text-decoration: none;
+	color:black;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 18px; 
+} 
+
+.estilo-boton:hover {
+	text-decoration: none;
+}
+
+.fa-github {
+	font-size: 40px;
+	color:black;
+}
+
+.fa-github:hover {
+	color:white;
+}
+
 .iconos {
 	font-size: 30px;
 	color:black;
 	margin:10px;
 
+
 }
+
+.iconos a {
+	color:black;
+}
+
+.iconos a:hover {
+	transition-duration:1s;
+	font-size:60px;
+	color:#228896;
+}
+
 #contact {
-	padding-bottom: 100px;
+	padding-bottom: 50px;
 }
+
 .enlace {
 	text-decoration: none;
 	padding-top: 15px;
