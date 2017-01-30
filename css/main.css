@@ -1,3 +1,4 @@
+
 * {
 	padding:0;
 	margin:0;
@@ -18,15 +19,16 @@
 .menu-fondo {
 	background-color: black;
 	padding-top:15px;
-	width:100%;
-	position:fixed;
-	z-index:100;
-
 }
+
+.navbar-default {
+	border-color:black;
+}
+
 
 .menu a {
 	text-decoration: none;
-	color:white;
+	color:#228896;
 	font-family: 'Josefin sans';
 	margin-right: 50px;
 	font-size: 13px;
@@ -34,7 +36,7 @@
 }
 
 .menu a:hover {
-	color:#228896;
+	color:#A9C52F;
 }
 
 .profile {
@@ -48,25 +50,28 @@
 
 .title {
 	font-family: 'Josefin Sans', sans-serif;
-	padding-top: 140px;
+	padding-top: 250px;
 	color:#ECE9E3;
 }
 .subtitle {
 	font-family: 'Josefin Sans', sans-serif;
 	color:#C7C5C3;
+	padding-bottom: 250px;
 	
 }
 .icon-title {
-	color:#BBB9B9;
-	font-size: 40px;
-	padding-bottom: 250px;
+	color:#228896;
+	font-size: 30px;
+	padding-bottom: 10px;
 	
 }
 
 .icon-title:hover {
-	color:#228896;
+	color:#A9C52F;
 }
 
+#profile {
+}
 .perfil {
 	padding-top: 70px;
 	width: 40%;
@@ -76,6 +81,12 @@
 	display:none;
 	visibility: hidden;
 }*/
+
+.skills {
+	padding-bottom: 35px;
+
+
+}
 
 .profile-title {
 	padding-top: 50px;
@@ -91,6 +102,7 @@
 .color-hability {
 	color:#228896;
 }
+
 .margen-profile {
 	padding-bottom: 20px;
 }
@@ -108,47 +120,51 @@ p {
 .works {
 	padding-bottom: 50px;
 	background-color: #228896;
+
+	
 }
 h2 {
 	font-family: 'Josefin Sans', sans-serif;
-	padding-top:30px;
-	padding-bottom: 20px;
+	padding-top:50px;
+	padding-bottom: 30px;
 }
 
 
 .img-works {
 	max-width: 100%;
 	margin:5px;
+	max-height: 350px;
 	margin-bottom: 30px;
-	border-radius: 10px;
+	border-radius: 3px;
+	border:1px solid #1E2531;
 }
+
 
 .estilo-boton {
 	text-decoration: none;
 	color:black;
 	font-family: 'Josefin Sans', sans-serif;
-	font-size: 18px; 
+	font-size: 13px; 
 } 
 
 .estilo-boton:hover {
 	text-decoration: none;
-}
+	color:#A9C52F;
+	}
 
 .fa-github {
-	font-size: 40px;
+	font-size: 25px;
 	color:black;
 }
 
 .fa-github:hover {
-	color:white;
+	color:#A9C52F;
 }
 
 .iconos {
 	font-size: 30px;
 	color:black;
 	margin:10px;
-
-
 }
 
 .iconos a {
@@ -156,13 +172,15 @@ h2 {
 }
 
 .iconos a:hover {
-	transition-duration:1s;
-	font-size:60px;
+	transition-duration:1.5s;
+	font-size:45px;
 	color:#228896;
 }
 
 #contact {
 	padding-bottom: 50px;
+	background-color: #A9C52F;
+
 }
 
 .enlace {
