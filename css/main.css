@@ -196,3 +196,35 @@ footer p {
 	padding:20px;
 	color:#228896;
 }
+
+
+.grid-item { width: 33%; display: inline-block; margin: 10px;}
+.grid-item--width2 { width: 60%; display: inline-block }
+
+.bg {
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: top;
+	height: 300px;
+}
+.foto-1 {
+	background-image: url('../img/danza-arte.png');
+	
+}
+.foto-2 {
+	background-image: url('../img/creamy-md.png');
+
+}
+.foto-3 {
+	background-image: url('../img/comunidad-sostenible.png');
+}
+.foto-4 {
+	background-image: url('../img/carrocomp.png');
+}
+.foto-5 {
+	background-image: url('../img/trello-md.png');
+}
+.foto-6 {
+	background-image: url('../img/twitter.png');
+}
+

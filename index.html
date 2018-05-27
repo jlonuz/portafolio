@@ -63,49 +63,92 @@
 		</div>
 		
 	</section>
-	<section id="works" class="container-fluid works">
-		<h2 class="text-center">Works</h2>
-		<div class="row">
-	
-				<div class="col-md-3 text-center">
-					<img class="img-works" src="img/danza-xs.png" alt="">
-					<div class="row">
-						<a href="http://jlonuz.github.io/danza-arte" class="estilo-boton">VER MÁS...</a>
-						<p><a href="https://github.com/jlonuz/danza-arte"><i class="fa fa-github" aria-hidden="true"></i></a></p>
-					</div>
-				
-				</div>
-				<div class="col-md-3 text-center">
-					<img class="img-works" src="img/twitter.png" alt="">
-					<div class="row">
-						<a href="http://jlonuz.github.io/twitter" class="estilo-boton">VER MÁS...</a>
-						<p><a href="https://github.com/jlonuz/twitter"><i class="fa fa-github" aria-hidden="true"></i></a></p>
-					</div>
-					
-				</div>
-				<!--<div class="col-md-3 text-center">
-					<img class="img-works" src="img/carrocomp.png" alt="">
-					<div class="row">
-						<a href="http://jlonuz.github.io/twitter" class="estilo-boton">Ver más...</a>
-						<p><a href="https://github.com/jlonuz/twitter"><i class="fa fa-github" aria-hidden="true"></i></a></p>
-					</div>
-					
-				</div>-->
-
-			
-		
-			<div class="col-md-6 text-center">
-				<img class="img-works" src="img/comunidad-sostenible.png" alt="">
+	<section id="works" class="works">
+		<div class="container">
+				<h2 class="text-center">Works</h2>
 				<div class="row">
-					<a href="http://jlonuz.github.io/comunidad-sostenible" class="estilo-boton">VER MÁS...</a>
-					<p><a href="https://github.com/jlonuz/comunidad-sostenible"><i class="fa fa-github" aria-hidden="true"></i></a></p>
-
-				</div>
+			
+						<div class="col-md-3 text-center">
+							<img class="img-works" src="img/danza-xs.png" alt="">
+							<!-- <div class="row">
+								<a href="http://jlonuz.github.io/danza-arte" class="estilo-boton">VER MÁS...</a>
+								<p><a href="https://github.com/jlonuz/danza-arte"><i class="fa fa-github" aria-hidden="true"></i></a></p>
+							</div> -->
+						
+						</div>
+						<div class="col-md-3 text-center">
+							<img class="img-works" src="img/twitter.png" alt="">
+							<!-- <div class="row">
+								<a href="http://jlonuz.github.io/twitter" class="estilo-boton">VER MÁS...</a>
+								<p><a href="https://github.com/jlonuz/twitter"><i class="fa fa-github" aria-hidden="true"></i></a></p>
+							</div> -->
+							
+						</div>
+						<!--<div class="col-md-3 text-center">
+							<img class="img-works" src="img/carrocomp.png" alt="">
+							<div class="row">
+								<a href="http://jlonuz.github.io/twitter" class="estilo-boton">Ver más...</a>
+								<p><a href="https://github.com/jlonuz/twitter"><i class="fa fa-github" aria-hidden="true"></i></a></p>
+							</div>
+							
+						</div>-->
+		
+					
 				
-			</div>
+					<div class="col-md-6 text-center">
+						<img class="img-works" src="img/comunidad-sostenible.png" alt="">
+						<!-- <div class="row">
+							<a href="http://jlonuz.github.io/comunidad-sostenible" class="estilo-boton">VER MÁS...</a>
+							<p><a href="https://github.com/jlonuz/comunidad-sostenible"><i class="fa fa-github" aria-hidden="true"></i></a></p>
+		
+						</div> -->
+						
+					</div>
+				</div>
 		</div>
-	
+		
 	</section>
+
+	<section id="works" class=" works">
+		<div class="container">
+				<h2 class="text-center">Works</h2>
+				<div class="row">
+					<div class="grid">
+						<div class="col-md-12">
+							<div class="grid-item">
+								<!-- <img class="img-works" src="img/danza-xs.png" alt=""> -->
+								<div class="bg foto-1"></div>
+							</div>
+							<div class="grid-item grid-item--width2">
+								<!-- <img class="img-works" src="img/twitter.png" alt=""> -->
+								<div class="bg foto-2"></div>
+							</div>
+							<div class="grid-item grid-item--width2">
+								<!-- <img class="img-works" src="img/comunidad-sostenible.png" alt=""> -->
+								<div class="bg foto-3"></div>
+							</div>
+							<div class="grid-item">
+								<!-- <img class="img-works" src="img/danza-xs.png" alt=""> -->
+								<div class="bg foto-4"></div>
+							</div>
+							<div class="grid-item">
+									<!-- <img class="img-works" src="img/comunidad-sostenible.png" alt=""> -->
+									<div class="bg foto-6"></div>
+								</div>
+							<div class="grid-item grid-item--width2">
+								<!-- <img class="img-works" src="img/twitter.png" alt=""> -->
+								<div class="bg foto-5"></div>
+							</div>
+							
+							
+						</div>
+					</div>
+					
+				</div>
+		</div>
+		
+	</section>
+
 	<section id="contact">
 		<div class="container">
 			<h2 class="text-center">Contact</h2>
@@ -130,6 +173,8 @@
 
 	
 	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/masonry.min.js"></script>
+	<script src="js/main.js"></script>
 	<script>
 		$('a[href*="#"]:not([href="#"])').click(function() {
 		  if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
