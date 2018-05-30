@@ -1,5 +1,16 @@
-$('.grid').masonry({
-  // options
-  itemSelector: '.grid-item',
-  columnWidth: 20
+// $('.grid').isotope({
+//     // options
+//     itemSelector: '.grid-item',
+//     masonry: {
+//         gutter: '.gutter'
+//     }
+// });
+
+
+$('.grid').isotope({
+    itemSelector: '.grid-item',
+    percentPosition: true,
+    masonry: {
+        gutter: '.gutter'
+    }
 });

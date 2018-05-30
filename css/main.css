@@ -1,86 +1,86 @@
-
 * {
-	padding:0;
-	margin:0;
+    padding: 0;
+    margin: 0;
 }
 
 .banner {
-	background-image: url(../img/santiago.jpg);
-	background-size: cover;
-	background-position: center;
-
+    background-image: url(../img/santiago.jpg);
+    background-size: cover;
+    background-position: center;
 }
-.menu {
-	color:#BBB9B9;
-	display: inline;
 
+.menu {
+    color: #BBB9B9;
+    display: inline;
 }
 
 .menu-fondo {
-	background-color: black;
-	padding-top:15px;
+    background-color: black;
+    padding-top: 15px;
 }
 
 .navbar-default {
-	border-color:black;
+    border-color: black;
 }
 
-
 .menu a {
-	text-decoration: none;
-	color:#228896;
-	font-family: 'Josefin sans';
-	margin-right: 50px;
-	font-size: 13px;
-
+    text-decoration: none;
+    color: #228896;
+    font-family: 'Josefin sans';
+    margin-right: 50px;
+    font-size: 13px;
+    text-transform: uppercase;
 }
 
 .menu a:hover {
-	color:#A9C52F;
+    color: #2BBFD3;
 }
 
 .profile {
-	padding-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 .enlace:hover {
-	color:#228896;
+    color: #228896;
 }
-
 
 .title {
-	font-family: 'Josefin Sans', sans-serif;
-	padding-top: 250px;
-	color:#ECE9E3;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 250px;
+    color: #ECE9E3;
 }
+
 .subtitle {
-	font-family: 'Josefin Sans', sans-serif;
-	color:#C7C5C3;
-	padding-bottom: 250px;
-	
+    font-family: 'Josefin Sans', sans-serif;
+    color: #C7C5C3;
+    padding-bottom: 250px;
 }
+
 .icon-title {
-	color:#228896;
-	font-size: 30px;
-	padding-bottom: 10px;
-	
+    color: #228896;
+    font-size: 30px;
+    padding-bottom: 10px;
 }
 
 .icon-title:hover {
-	color:#A9C52F;
+    color: #A9C52F;
 }
 
 #profile {
+    padding: 50px;
 }
+
 .perfil {
-	padding-top: 70px;
-	width: 40%;
+    width: 50%;
+    margin-top: 30px;
 }
+
 
 /*.aparecen {
 	display:none;
 	visibility: hidden;
 }*/
+
 
 /* .skills {
 	padding-bottom: 35px;
@@ -89,142 +89,191 @@
 } */
 
 .profile-title {
-	padding-top: 50px;
-	padding-bottom: 10px;
-	font-family: 'Josefin Sans', sans-serif;
+    padding-bottom: 10px;
+    font-family: 'Josefin Sans', sans-serif;
 }
+
 .hability {
-	font-family: 'Josefin Sans', sans-serif;
-	display:inline-block;
-	padding:15px;
+    font-family: 'Josefin Sans', sans-serif;
+    display: inline-block;
+    padding: 15px;
 }
 
 .color-hability {
-	color:#228896;
+    color: #228896;
 }
 
 .margen-profile {
-	padding-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 p {
-	font-family: 'Josefin Sans', sans-serif;
-
+    font-family: 'Josefin Sans', sans-serif;
 }
+
 .icon {
-	font-size: 30px;
-	margin-left: 10px;
-	margin-top: 15px;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+#works {
+    padding: 100px;
+}
+
+#works h1 {
+    padding-bottom: 50px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .works {
-	padding-bottom: 50px;
-	background-color: #228896;
-
-	
+    padding-bottom: 50px;
+    background-color: #228896;
 }
+
 h2 {
-	font-family: 'Josefin Sans', sans-serif;
-	padding-top:50px;
-	padding-bottom: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-bottom: 15px;
+    /* padding-top: 50px;
+    padding-bottom: 30px; */
 }
-
 
 .img-works {
-	max-width: 100%;
-	margin:5px;
-	max-height: 350px;
-	margin-bottom: 30px;
-	border-radius: 3px;
-	border:1px solid #1E2531;
+    max-width: 100%;
+    margin: 5px;
+    max-height: 350px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+    border: 1px solid #1E2531;
 }
 
-
 .estilo-boton {
-	text-decoration: none;
-	color:black;
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 13px; 
-} 
+    text-decoration: none;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 13px;
+}
 
 .estilo-boton:hover {
-	text-decoration: none;
-	color:#A9C52F;
-	}
+    text-decoration: none;
+    color: #A9C52F;
+}
 
 .fa-github {
-	font-size: 25px;
-	color:black;
+    font-size: 25px;
+    color: black;
 }
 
 .fa-github:hover {
-	color:#A9C52F;
+    color: #A9C52F;
 }
 
 .iconos {
-	font-size: 30px;
-	color:black;
-	margin:10px;
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+    display: inline-block;
 }
 
 .iconos a {
-	color:black;
+    color: #228896;
+    display: block;
+    text-align: center;
+}
+
+.iconos a span {
+    display: block;
+    padding-top: 20px;
+}
+
+.iconos a .fa {
+    font-size: 30px;
 }
 
 .iconos a:hover {
-	transition-duration:1.5s;
-	font-size:45px;
-	color:#228896;
+    transition-duration: .7s;
+    color: #228896;
 }
 
 #contact {
-	padding-bottom: 50px;
-	background-color: #A9C52F;
-
+    padding: 100px;
+    background-color: #091a2d;
+    color: #fff;
 }
 
 .enlace {
-	text-decoration: none;
-	padding-top: 15px;
+    text-decoration: none;
+    padding-top: 15px;
 }
 
 footer {
-	background-color: black;
+    background-color: black;
 }
 
 footer p {
-	padding:20px;
-	color:#228896;
+    padding: 20px;
+    color: #228896;
+    margin: 0;
 }
 
+.grid-item {
+    width: 30%;
+    display: inline-block;
+    margin-bottom: 30px;
+}
 
-.grid-item { width: 33%; display: inline-block; margin: 10px;}
-.grid-item--width2 { width: 60%; display: inline-block }
+.grid-item--width2 {
+    margin-bottom: 30px;
+    display: inline-block;
+}
 
 .bg {
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position: top;
-	height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 300px;
 }
+
 .foto-1 {
-	background-image: url('../img/danza-arte.png');
-	
+    background-image: url('../img/danza-arte.png');
 }
+
 .foto-2 {
-	background-image: url('../img/creamy-md.png');
-
+    background-image: url('../img/creamy-md.png');
 }
+
 .foto-3 {
-	background-image: url('../img/comunidad-sostenible.png');
-}
-.foto-4 {
-	background-image: url('../img/carrocomp.png');
-}
-.foto-5 {
-	background-image: url('../img/trello-md.png');
-}
-.foto-6 {
-	background-image: url('../img/twitter.png');
+    background-image: url('../img/comunidad-sostenible.png');
 }
 
+.foto-4 {
+    background-image: url('../img/carrocomp.png');
+}
+
+.foto-5 {
+    background-image: url('../img/trello-md.png');
+}
+
+.foto-6 {
+    background-image: url('../img/twitter.png');
+}
+
+.white-text {
+    color: #fff;
+}
+
+.gutter {
+    width: 4%;
+}
+
+.grid-item-text {
+    padding: 15px;
+    background-color: #093565;
+    color: #fff;
+}
+
+@media (max-width:767px) {
+    .grid-item {
+        width: 45%;
+    }
+}
