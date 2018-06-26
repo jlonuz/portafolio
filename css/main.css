@@ -77,8 +77,9 @@
 }
 
 .perfil {
-    width: 50%;
+    width: 80%;
     margin-top: 60px;
+    border-radius: 5px;
 }
 
 
@@ -362,5 +363,14 @@ footer p {
     }
     .gutter {
         width: 2%;
+    }
+}
+
+@media (max-width:580px) {
+    .grid-item {
+        width: 100%;
+    }
+    .gutter {
+        width: 0;
     }
 }
