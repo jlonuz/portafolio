@@ -357,6 +357,7 @@ footer p {
 @media (max-width:767px) {
     #works {
         padding: 15px;
+        padding-top: 60px;
     }
     .grid-item {
         width: 48%;
@@ -381,6 +382,7 @@ footer p {
     }
     #contact {
         padding: 20px;
+        padding-top: 60px;
     }
     .title {
         padding-top: 200px;
