@@ -262,6 +262,10 @@ footer p {
     height: 100%;
 }
 
+.bg:hover {
+    transform: scale(1.2);
+}
+
 .content {
     z-index: 2;
     position: relative;
@@ -272,6 +276,12 @@ footer p {
     border: 10px solid rgba(0, 0, 0, 0);
     opacity: 0;
 }
+
+
+/* .grid-item:hover .bg {
+    transform: scale(1.2);
+    overflow: hidden;
+} */
 
 .grid-item:hover .content {
     opacity: 1;
@@ -312,15 +322,16 @@ footer p {
 }
 
 .foto-1 {
-    background-image: url('../img/danza-arte.png');
+    background-image: url('../img/pau-lg.png');
+    background-size: 102%;
 }
 
 .foto-2 {
-    background-image: url('../img/creamy-md.png');
+    background-image: url('../img/enjoy-lg.png');
 }
 
 .foto-3 {
-    background-image: url('../img/comunidad-sostenible.png');
+    background-image: url('../img/empack-lg.png');
 }
 
 .foto-4 {
@@ -328,15 +339,15 @@ footer p {
 }
 
 .foto-5 {
-    background-image: url('../img/trello-md.png');
+    background-image: url('../img/colunga-lg.png');
 }
 
 .foto-6 {
-    background-image: url('../img/twitter2.png');
+    background-image: url('../img/uoct-lg.png');
 }
 
 .foto-7 {
-    background-image: url('../img/beme.png');
+    background-image: url('../img/beme-lg.png');
 }
 
 .white-text {
