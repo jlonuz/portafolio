@@ -78,8 +78,8 @@
 
 .perfil {
     width: 80%;
-    margin-top: 60px;
-    border-radius: 5px;
+    max-width: 50%;
+    border: 6px solid #000;
 }
 
 
